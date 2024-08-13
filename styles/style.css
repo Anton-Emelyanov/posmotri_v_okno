@@ -15,7 +15,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -63,7 +63,6 @@ ol {
   inline-size: 100%;
   block-size: 100%;
 }
-
 
 .result__video-container {
   position: relative;
@@ -193,7 +192,7 @@ fieldset {
   margin-inline-end: 5px;
 }
 
-input[type='checkbox']:checked + .search-form__pseudo-checkbox::before {
+input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
   inline-size: 15px;
   background-color: currentColor;
   content: "";
@@ -260,7 +259,7 @@ button {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   color: white;
-  font-family: 'Fira Sans Condensed',sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
 }
 
@@ -273,7 +272,7 @@ button {
 }
 
 .search-form__textfield::placeholder {
-  color: #FFFFFFB2;
+  color: #ffffffb2;
 }
 
 .title:not(:last-child) {
@@ -285,6 +284,5 @@ button {
 }
 
 input {
-  appearance: none; 
+  appearance: none;
 }
-
