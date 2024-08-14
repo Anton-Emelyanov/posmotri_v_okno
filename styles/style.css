@@ -83,6 +83,7 @@ ol {
 
 .content__video-card-thumbnail {
   width: 194px;
+  min-width: 194px;
   height: 103px;
   object-fit: cover;
 }
@@ -281,7 +282,7 @@ button {
   margin-block-end: 25px;
 }
 
-.content__card-link_current{
+.content__card-link_current {
   background-color: #545050;
 }
 
